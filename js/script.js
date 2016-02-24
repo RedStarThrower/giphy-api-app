@@ -38,10 +38,9 @@ var showData = function(jSonData) {
 	var imageArr = jSonData.data
 	for (var i = 0; i < imageArr.length; i++) {
 		var imageObj = imageArr[i]
-		newHTMLString += objectToHTML(imageObj)
-		container.innerHTML = newHTMLString
-
-	}	
+		newHTMLString += objectToHTML(imageObj)		
+	}
+	container.innerHTML = newHTMLString	
 }
 
 var objectToHTML = function(imageObj) {

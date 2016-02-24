@@ -21,9 +21,9 @@ input {
 }
 
 #container {
-	border: 5px salmon solid;
+	border: 20px salmon solid;
 	background: #ddd;
-	max-width: 100%;
+	max-width: 50%;
 	margin: 20px auto;
 
 }

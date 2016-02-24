@@ -9,6 +9,7 @@ body {
 h1 {
 	text-align: center;
 	font-size: 50px;
+	color: salmon;
 }
 
 input {
@@ -20,13 +21,16 @@ input {
 }
 
 #container {
-	border: 2px salmon solid;
-	max-width: 70%;
+	border: 5px salmon solid;
+	background: #ddd;
+	max-width: 100%;
 	margin: 20px auto;
 
 }
 
+
 .gif {
 	width: 100%;
 	margin: auto;
+	padding: 2%;
 }
